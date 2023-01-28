@@ -480,7 +480,10 @@ main { overflow-x: hidden; }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
 
-.hero-content { max-width: 450px; }
+.hero-content {
+    max-width: 450px;
+    position: absolute;
+}
 
 .hero-title {
   text-align: center;
