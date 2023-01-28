@@ -470,7 +470,6 @@ main { overflow-x: hidden; }
   align-items: center;
   padding-top: 115px;
   margin-bottom: var(--section-padding);
-  position: absolute;
 }
 
 .hero-banner {
@@ -483,6 +482,7 @@ main { overflow-x: hidden; }
 
 .hero-content {
     max-width: 450px;
+    position: absolute;
 }
 
 .hero-title {
