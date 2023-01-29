@@ -84,6 +84,7 @@ body.dark_theme {
   --input-bg: hsl(0, 0%, 16%);
 
   --shadow-1: 10px 10px 40px var(--card-shadow);
+  --invert-image: invert(0%);
 
 }
 
@@ -97,6 +98,7 @@ body.light_theme {
   --input-bg: hsl(0, 0%, 93%);
 
   --shadow-1: 10px 10px 40px var(--card-shadow);
+  --invert-image: invert(100%);
 
 }
 
@@ -674,6 +676,22 @@ div#particles-js {
   opacity: 1;
 }
 
+.skill-card .card-icon {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+.skill-card .card-icon img {
+  width: 70%;
+}
+
+.skill-card .card-icon.inv img {
+  width: 70%;
+  filter: var(--invert-image);
+}
 
 
 
