@@ -851,6 +851,7 @@ div#particles-js {
 .slick-slide img
 {
     display: block;
+    filter: var(--invert-image);
 }
 .slick-slide.slick-loading img
 {
